@@ -194,7 +194,7 @@ li {
 
 .intro {
   font-weight: 400;
-  font-size:18px;
+  font-size: 18px;
 }
 
 #passwords, #windows, #more {
@@ -278,6 +278,9 @@ li {
   }
   .splash {
     background-position: center 95%;
+  }
+  .intro {
+    font-size: 17px;
   }
   .spacer-20 {
     height: 14em;
