@@ -1,0 +1,482 @@
+.btn {
+  background-color: #237cd0;
+  color: white;
+  font-size: 14px;
+}
+
+.splash .btn {
+  font-size: 18px;
+}
+
+.btn:hover, .app-store:hover {
+  opacity: 0.6;
+  color: #fff;
+}
+
+.btn-download {
+  font-size: 10px;
+  letter-spacing: 3px;
+  font-weight: 600;
+  margin-bottom: 6px;
+  padding: 7px 30px;
+  margin-top: 10px;
+}
+.learnmore {
+  margin-top: 10px;
+  font-size: 18px;
+}
+.learnmore a {
+  text-decoration: underline;
+  color: #C8E0F6;
+}
+.learnmore a span {
+  color:#428BCA;
+}
+.learnmore a span:hover, .learnmore a:hover {
+  color: #3e91f4;
+}
+
+a {
+  font-weight: bold;
+}
+
+form {
+  clear: both;
+}
+
+.form-control {
+  font-size: 15px;
+}
+
+.btn-share {
+  cursor: pointer;
+  cursor: hand;
+}
+
+.disclaimer {
+  margin: 18px 0 0;
+  font-size: 13px;
+}
+
+
+.separator {
+  border-bottom: 2px;
+  margin-bottom: 10px;
+}
+
+.section-links {
+  font-size: 18px;
+}
+
+.section-links a span {
+  font-size: 65%;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: proxima-nova, "Open Sans", Arial;
+  font-size: 20px;
+  background: white;
+  color: #385e7f;
+    font-weight: 100;
+}
+
+h1 {
+  font-size: 112px;
+  color: white;
+}
+
+h2 {
+  font-size: 78px;
+  color: #2a7fcd;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  font-weight: 100;
+}
+
+h3 {
+  color: #237dd0;
+  font-size: 30px;
+}
+
+ol {
+    counter-reset:li; /* Initiate a counter */
+    margin-left:0; /* Remove the default left margin */
+    padding-left:0; /* Remove the default left padding */
+}
+ol > li {
+    position:relative; /* Create a positioning context */
+    margin:0 0 6px 2em; /* Give each list item a left margin to make room for the numbers */
+    padding:14px 8px; /* Add some spacing around the content */
+    list-style:none; /* Disable the normal item numbering */
+}
+ol > li:before {
+    content:counter(li) " |"; /* Use the counter as content */
+    counter-increment:li; /* Increment the counter by 1 */
+    /* Position and style the number */
+    position:absolute;
+    top:9px;
+    left:-2em;
+    width:2em;
+    /* Some space between the number and the content in browsers that support
+       generated content but not positioning it (Camino 2 is one example) */
+    margin-right:8px;
+    padding:4px;
+    color:#c6d8db;
+    font-weight: bold;
+    text-align:center;
+}
+li ol, li ul {margin-top:6px;}
+ol ol li:last-child {margin-bottom:0;}
+
+.navigation{
+  background-color: #728aa4;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.navigation > a {
+  padding: 20px;
+  color: white;
+}
+
+.splash {
+  background-color: #d2e1f0;
+  background-image:url('../images/background.jpg');
+  background-repeat:no-repeat;
+  background-position:center 64%;
+}
+
+#sharing-links {
+  bottom: 5%;
+  left: -4px;
+  position: fixed;
+  z-index: 999;
+}
+
+#phone{
+  background-color: white;
+}
+
+#more {
+  padding-left: 25%;
+  padding-right: 25%;
+}
+@media (max-width: 767px) {
+#more {
+  padding-left: 0;
+  padding-right: 0;
+}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+#more {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+}
+
+#more h3 {
+  font-size: 30px;
+  font-weight: 100;
+  padding-bottom:20px;
+}
+#more ol {
+  font-size: 18px;
+}
+
+li {
+  border-bottom: 1px dashed #d1e1f1;
+
+}
+
+.intro {
+  font-weight: 400;
+  font-size:18px;
+}
+
+#passwords, #windows, #more {
+  background-color: #fafcfe;
+  border-top: 1px solid #edeff1;
+  border-bottom: 1px solid #edeff1;
+}
+
+#mac, #gnu-linux {
+  background-color: white;
+}
+
+.spacer-2 {
+  height: 1em;
+}
+
+.spacer-20 {
+  height: 14em;
+}
+
+.vertical-separated {
+  border-right: 1px solid #d1e1f1;
+}
+
+.vertical-separated:last-child {
+  border: none;
+}
+
+.separator, .carat-separator{
+  border-bottom: 1px solid #d1e1f1;
+}
+
+#more .carat-separator {
+  margin-bottom:30px;
+}
+
+.dashed-separator {
+  border-bottom: 1px dashed #d1e1f1;
+  margin-bottom: 10px;
+}
+
+.triplets-container, .triplets-header {
+  max-width: 69%;
+  margin:0 auto;
+}
+.triplets-container {
+    margin-bottom:30px;
+}
+.triplets-header h2 {
+  margin-bottom: 10px ;
+}
+
+.subtext {
+  font-size: 20px;
+  margin-bottom:40px;
+  font-weight: 100;
+}
+
+#phone, #password, #mac, #windows, #gnu-linux {
+  padding-bottom:40px;
+}
+
+#more {
+  padding-top:40px;
+}
+#more .row {
+  padding-top:30px;
+  padding-bottom: 30px;
+}
+
+
+@media all and (max-width: 1500px) {
+  .splash {
+  background-position: center -7%;
+}
+  }
+  
+@media all and (min-width: 768px) and (max-width: 991px)  {
+  #id_email {
+    width: 70%;
+  }
+  .splash {
+    background-position: center 95%;
+  }
+  .spacer-20 {
+    height: 14em;
+  }
+  h1 {
+    font-size: 78px;
+  }
+  h3 {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  body {
+    font-size: 16px;
+  }
+  .phone-description {
+    min-height: 130px;
+  }
+  .section-links {
+    font-size: 14px;
+  }
+  .btn {
+    font-size: 10px;
+  }
+  .triplets-container, .triplets-header {
+    max-width: 89%;
+  }
+  .phone-description {
+    min-height: 70px;
+    }
+}
+
+@media all and (max-width: 767px) {
+  .vertical-separated {
+    border-right: none;
+  }
+  .spacer-20 {
+    height: 15em;
+  }
+  .splash {
+    background-position: center -120px;
+  }
+  h1 {
+    font-size: 42px;
+    padding-top: 10px;
+  }
+  h2 {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .separator {
+    border: none;
+  }
+  .thin-separator {
+    margin-top: 30px;
+    border-bottom: 1px solid #d1e1f1;
+  }
+
+  body {
+    font-size: 18px;
+  }
+
+  .section-links {
+    font-size: 18px;
+  }
+  .btn {
+    font-size: 10px;
+  }
+  .splash .btn {
+    margin-top: 10px;
+  }
+  .btn-share {
+    width: 100px;
+  }
+  .navigation {
+    line-height: 1.9;
+  }
+  .triplets-container, .triplets-header {
+    max-width: 100%;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  .triplets-container .col-sm-4, .triplets-container .col-sm-6 {
+    margin-bottom:40px;
+  }
+}
+
+#sharing-links a {
+  clear: both;
+  display: block;
+  text-decoration: none;
+}
+#sharing-links a .btn-share {
+  text-decoration: none;
+  float: left;
+}
+.arrow_box {
+	position: relative;
+	background: #fff;
+	border: 1px solid #ccc;
+  float: left;
+  margin-left: 7px;
+  border-radius: 5px;
+  height: 48px;
+  line-height: 48px;
+  font-size: 16px;
+  margin-top: 2px;
+  width: 61px;
+  text-align: center;
+}
+.arrow_box .share-total {
+  padding: 0 10px 0 10px;
+}
+.arrow_box:after, .arrow_box:before {
+	right: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.arrow_box:after {
+	border-color: rgba(255, 255, 255, 0);
+	border-right-color: #fff;
+	border-width: 5px;
+	margin-top: -5px;
+}
+.arrow_box:before {
+	border-color: rgba(204, 204, 204, 0);
+	border-right-color: #ccc;
+	border-width: 6px;
+	margin-top: -6px;
+}
+
+@media all and (max-width: 992px) {
+  #sharing-links {
+    display: none;
+  }
+}
+
+@media all and (min-width: 992px) {
+  .phone-description {
+    min-height: 145px;
+  }
+  .spacer-20 {
+    height: 14em;
+  }
+  h1 {
+    padding-top: 70px;
+  }
+}
+
+@media all and (min-width: 992px) and (max-width: 1199px)  {
+  h3 {
+    font-size: 25px;
+  }
+  .phone-description {
+    min-height: 127px;
+    font-size: 18px;
+  }
+  .splash {
+    font-size: 18px;
+  }
+  .triplets-container, .triplets-header {
+    max-width: 59%;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .phone-description {
+  min-height: 86px;
+  }
+  .subtext{
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.arrow_box {display: none;}
+@media all and (min-width: 1400px) {
+  .splash {
+    background-size: 100%;
+  }
+  .spacer-20 {
+    height: 13em;
+  }
+  .arrow_box {
+    display: block;
+  }
+}
+@media all and (max-width: 1199px) {
+  .navigation > a {
+    padding: 8px;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 1199px) {
+  #passwords h2 {
+    font-size: 61px;
+  }
+}
