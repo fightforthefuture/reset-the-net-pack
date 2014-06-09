@@ -14,7 +14,7 @@
 }
 
 .btn-download {
-  font-size: 10px;
+  font-size: 7px;
   letter-spacing: 3px;
   font-weight: 600;
   margin-bottom: 6px;
@@ -194,7 +194,7 @@ li {
 
 .intro {
   font-weight: 400;
-  font-size: 18px;
+  font-size:18px;
 }
 
 #passwords, #windows, #more {
@@ -278,9 +278,6 @@ li {
   }
   .splash {
     background-position: center 95%;
-  }
-  .intro {
-    font-size: 17px;
   }
   .spacer-20 {
     height: 14em;
@@ -377,9 +374,9 @@ li {
   float: left;
 }
 .arrow_box {
-	position: relative;
-	background: #fff;
-	border: 1px solid #ccc;
+  position: relative;
+  background: #fff;
+  border: 1px solid #ccc;
   float: left;
   margin-left: 7px;
   border-radius: 5px;
@@ -394,27 +391,27 @@ li {
   padding: 0 10px 0 10px;
 }
 .arrow_box:after, .arrow_box:before {
-	right: 100%;
-	top: 50%;
-	border: solid transparent;
-	content: " ";
-	height: 0;
-	width: 0;
-	position: absolute;
-	pointer-events: none;
+  right: 100%;
+  top: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
 }
 
 .arrow_box:after {
-	border-color: rgba(255, 255, 255, 0);
-	border-right-color: #fff;
-	border-width: 5px;
-	margin-top: -5px;
+  border-color: rgba(255, 255, 255, 0);
+  border-right-color: #fff;
+  border-width: 5px;
+  margin-top: -5px;
 }
 .arrow_box:before {
-	border-color: rgba(204, 204, 204, 0);
-	border-right-color: #ccc;
-	border-width: 6px;
-	margin-top: -6px;
+  border-color: rgba(204, 204, 204, 0);
+  border-right-color: #ccc;
+  border-width: 6px;
+  margin-top: -6px;
 }
 
 @media all and (max-width: 992px) {
@@ -437,7 +434,7 @@ li {
 
 @media all and (min-width: 992px) and (max-width: 1199px)  {
   h3 {
-    font-size: 25px;
+    font-size: 20px;
   }
   .phone-description {
     min-height: 127px;
