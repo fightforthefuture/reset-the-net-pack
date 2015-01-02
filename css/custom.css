@@ -1,3 +1,8 @@
+.row {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
 .btn {
   background-color: #237cd0;
   color: white;
@@ -20,6 +25,7 @@
   margin-bottom: 6px;
   padding: 7px 30px;
   margin-top: 10px;
+  white-space: normal;
 }
 .learnmore {
   margin-top: 10px;
@@ -356,8 +362,6 @@ li {
   }
   .triplets-container, .triplets-header {
     max-width: 100%;
-    margin-right: -15px;
-    margin-left: -15px;
   }
   .triplets-container .col-sm-4, .triplets-container .col-sm-6 {
     margin-bottom:40px;
